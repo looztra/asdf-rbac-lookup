@@ -1,6 +1,6 @@
 # asdf-rbac-lookup
 
-[![Build Status](https://travis-ci.com/looztra/asdf-rbac-lookup.svg?branch=master)](https://travis-ci.com/looztra/asdf-rbac-lookup)
+[![Build Status](https://travis-ci.org/looztra/asdf-rbac-lookup.svg?branch=master)](https://travis-ci.org/looztra/asdf-rbac-lookup)
 
 [rbac-lookup](https://github.com/FairwindsOps/rbac-lookup) plugin for the [asdf](https://github.com/asdf-vm/asdf) version manager.
 
