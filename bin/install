@@ -47,7 +47,14 @@ get_binary_path_in_archive() {
 }
 
 get_platform() {
-    echo "$(uname)_x86_64"
+    arch=$(uname -m)
+    case $arch in
+        armv6*) arch="armv6";;
+        armv7*) arch="armv7";;
+        aarch64) arch="arm64";;
+        x86_64) arch="x86_64";;
+    esac
+    echo "$(uname)_${arch}"
 }
 
 get_filename() {
