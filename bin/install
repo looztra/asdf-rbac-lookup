@@ -47,6 +47,7 @@ get_binary_path_in_archive() {
 }
 
 get_platform() {
+    local arch
     arch=$(uname -m)
     case $arch in
         armv6*) arch="armv6";;
